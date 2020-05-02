@@ -1,0 +1,61 @@
+#grosseDiv {
+    display: flex;
+    justify-content: center;
+}
+#grosseDiv a{
+    text-decoration: none;
+}
+
+.divBlue{
+    height: 220px;
+    width: 300px;
+}
+
+#divRouge{
+    background-color: red;
+    height: 60px;
+    width: 60px;
+}
+
+.niveau2{
+    height: 350px;
+    width: 300px;
+}
+
+.divBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divBtn button {
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+
+.tache li{
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+.remover{
+    cursor: pointer
+}
+    
+.checked{
+    background-color: green;
+    color: white;
+}
+
+nav span {
+    color:blue;
+    cursor: pointer
+}
+ 
+
+.gris {
+    background-color: #bbbbbb;
+    width:86.5%;
+}
